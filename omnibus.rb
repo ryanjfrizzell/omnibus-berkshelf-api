@@ -13,7 +13,7 @@
 #
 # Uncomment this line to change the default base directory to "local"
 # -------------------------------------------------------------------
-base_dir './local'
+#base_dir './local'
 #
 # Alternatively you can tune the individual values
 # ------------------------------------------------
@@ -26,7 +26,7 @@ base_dir './local'
 
 # Disable git caching
 # ------------------------------
-# use_git_caching false
+use_git_caching false
 
 # Enable S3 asset caching
 # ------------------------------

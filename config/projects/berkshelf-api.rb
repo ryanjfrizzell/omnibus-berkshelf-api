@@ -15,14 +15,17 @@ install_dir "#{default_root}/#{name}"
 build_version Omnibus::BuildVersion.semver
 build_iteration 1
 
+override :ruby, version: "2.1.6"
 # Creates required build directories
 dependency "preparation"
 
 # berkshelf-api dependencies/components
-dependency "chef"
+dependency "ruby"
+dependency "rubygems"
+dependency "berkshelf-api"
 
 # Version manifest file
-dependency "version-manifest"
+#dependency "version-manifest"
 
 exclude "**/.git"
 exclude "**/bundler/git"

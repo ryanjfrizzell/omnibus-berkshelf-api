@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Install omnibus
-gem 'omnibus', '~> 4.0'
+gem 'omnibus', git: 'https://github.com/chef/omnibus.git'
 gem 'omnibus-software', git: 'https://github.com/chef/omnibus-software.git'
 
 # Use Chef's software definitions. It is recommended that you write your own

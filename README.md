@@ -1,5 +1,3 @@
-berkshelf-api Omnibus project
-=============================
 This project creates full-stack platform-specific packages for
 `berkshelf-api`!
 

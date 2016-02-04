@@ -1,0 +1,7 @@
+#!/bin/bash
+#
+# Perform necessary berkshelf-api setup steps
+# before package is installed.
+#
+
+echo "You're about to install berkshelf-api!"

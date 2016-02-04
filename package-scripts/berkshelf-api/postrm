@@ -1,0 +1,9 @@
+#!/bin/bash
+#
+# Perform necessary berkshelf-api removal steps
+# after package is uninstalled.
+#
+
+echo "berkshelf-api has been uninstalled!"
+
+exit 0

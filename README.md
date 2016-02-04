@@ -3,9 +3,10 @@ Notes
 
 * install chef-dk
 * use kitchen to bring up the machine you need to build a pacakge for
-  <code>kitchen converge <your os></code>
+  <code>kitchen converge YOUR OS</code>
 * login to the machine
-  <code>kitchen login <your os></code>
+  <code>kitchen login YOUR OS</code>
+* check our the releases for some pre-build RPM(s) love
 * follow the instructions below....
 
 

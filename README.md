@@ -1,9 +1,20 @@
+Notes
+-----------
+
+* install chef-dk
+* use kitchen to bring up the machine you need to build a pacakge for
+  <code>kitchen converge <your os></code>
+* login to the machine
+  <code>kitchen login <your os></code>
+* follow the instructions below....
+
+
 This project creates full-stack platform-specific packages for
 `berkshelf-api`!
 
 Installation
 ------------
-You must have a sane Ruby 1.9+ environment with Bundler installed. Ensure all
+You must have a sane Ruby 2.0+ environment with Bundler installed. Ensure all
 the required gems are installed:
 
 ```shell

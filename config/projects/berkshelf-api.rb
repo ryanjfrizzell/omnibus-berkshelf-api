@@ -23,6 +23,9 @@ dependency "preparation"
 dependency "ruby"
 dependency "rubygems"
 dependency "berkshelf-api"
+runtime_dependency "libarchive-devel"
+runtime_dependency "libarchive"
+
 
 # Version manifest file
 #dependency "version-manifest"
